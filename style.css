@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+    background-color: #f0f8ff; /* สีฟ้าอ่อน */
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #2c3e50; /* สีเทาเข้ม */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: #34495e; /* สีเทาเข้ม */
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #d1d9e6; /* สีขอบ */
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #2980b9; /* ขอบฟ้าสวยงาม */
+}
+
+button {
+    background-color: #2980b9; /* สีฟ้าสดใส */
+    color: #ffffff;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1f618d; /* สีฟ้าเข้มเมื่อ hover */
+}
+
+.reminder-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.reminder-item {
+    background: #ecf0f1; /* สีเทาอ่อน */
+    padding: 10px;
+    border-left: 5px solid #2980b9;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #34495e;
+    line-height: 1.4;
+    transition: background-color 0.3s ease;
+}
+
+.reminder-item:hover {
+    background-color: #d5eaf1; /* สีเมื่อ hover */
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7f8c8d;
+}

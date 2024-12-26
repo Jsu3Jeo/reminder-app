@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เตือนความจำ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ปุ่มออกจากระบบ -->
+        <button id="logout-button" style="float: right; background-color: #e74c3c; color: white; border: none; padding: 10px; border-radius: 8px; cursor: pointer;">
+            ออกจากระบบ
+        </button>
+        <h1>ระบบเตือนความจำ</h1>
+        <form id="reminder-form">
+            <label for="activity">กิจกรรม:</label>
+            <input type="text" id="activity" required>
+            
+            <label for="date">วันที่:</label>
+            <input type="date" id="date" required>
+
+            <label for="time">เวลา:</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">เพิ่มกิจกรรม</button>
+        </form>
+
+        <div id="reminder-list">
+            <h3>รายการเตือนความจำ</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
